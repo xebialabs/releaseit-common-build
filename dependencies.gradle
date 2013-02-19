@@ -1,7 +1,6 @@
 project.ext {
-  apiVersion = '3.8.4'
-  engineVersion = '3.8.4'
-  bundledPluginsVersion = '3.8.4'
+  apiVersion = '3.9.0-alpha-20'
+  engineVersion = '3.9.0-alpha-34'
 
   apacheDsVersion = '1.5.5'
   jackrabbitVersion = '2.2.10'
