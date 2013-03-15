@@ -1,6 +1,7 @@
 project.ext {
   apiVersion = '3.9.0-alpha-26'
-  engineVersion = '3.9.0-alpha-43'
+  engineVersion = '3.9.0-alpha-44'
+  deployitVersion = '3.9.0-alpha-2'
 
   apacheDsVersion = '1.5.5'
   jackrabbitVersion = '2.6.0'
@@ -32,6 +33,10 @@ project.ext.deps = [
   commons_httpclient: "commons-httpclient:commons-httpclient:3.1",
   commons_io: "commons-io:commons-io:2.4",
   commons_lang: "commons-lang:commons-lang:2.6",
+  deployit_appserver_main: "com.xebialabs.deployit:appserver-main:${deployitVersion}",
+  deployit_appserver_core: "com.xebialabs.deployit:appserver-core:${deployitVersion}",
+  deployit_appserver_api: "com.xebialabs.deployit:appserver-api:${deployitVersion}",
+  deployit_appserver_api_impl: "com.xebialabs.deployit:appserver-api-impl:${deployitVersion}",
   deployit_doc_generator: "com.xebialabs.deployit.engine:doc-generator:$engineVersion",
   deployit_engine_api: "com.xebialabs.deployit:engine-api:$apiVersion",
   deployit_engine_spi: "com.xebialabs.deployit:engine-spi:$apiVersion",
@@ -119,6 +124,7 @@ project.ext.deps = [
   truezip_driver_zip: "de.schlichtherle.truezip:truezip-driver-zip:${trueZipVersion}",
   truezip_kernel: "de.schlichtherle.truezip:truezip-kernel:${trueZipVersion}",
   velocity: "org.apache.velocity:velocity:1.7",
+
   xstream: 'com.thoughtworks.xstream:xstream:1.4.4'
 ]
 
