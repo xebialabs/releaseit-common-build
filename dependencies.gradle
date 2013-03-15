@@ -1,5 +1,5 @@
 project.ext {
-  apiVersion = '3.9.0-alpha-25'
+  apiVersion = '3.9.0-alpha-26'
   engineVersion = '3.9.0-alpha-43'
 
   apacheDsVersion = '1.5.5'
