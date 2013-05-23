@@ -1,5 +1,5 @@
 project.ext {
-  apiVersion = '3.9.0'
+  apiVersion = '3.9.1-alpha-1'
   engineVersion = '3.9.1-alpha-4'
   deployitVersion = '3.9-releaseit-6'
 
