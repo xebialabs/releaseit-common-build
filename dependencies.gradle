@@ -1,8 +1,8 @@
 project.ext {
-  apiVersion = '3.9.1'
-  engineVersion = '3.9.2-alpha-2'
-  deployitVersion = '3.9-releaseit-8'
-
+  apiVersion = '3.9.2'
+  engineVersion = '3.9.3-alpha-4'
+  deployitVersion = '3.9-releaseit-9'
+  
   apacheDsVersion = '1.5.5'
   jackrabbitVersion = '2.6.0'
   jettyVersion = '6.1.11'
