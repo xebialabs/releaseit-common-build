@@ -115,7 +115,7 @@ project.ext.deps = [
   spring_context: "org.springframework:spring-context:${springVersion}",
   spring_core: "org.springframework:spring-core:${springVersion}",
   spring_jdbc: "org.springframework:spring-jdbc:${springVersion}",
-  spring_ldap: "org.springframework.ldap:spring-ldap-core:${springLdapVersion}"
+  spring_ldap: "org.springframework.ldap:spring-ldap-core:${springLdapVersion}",
   spring_security_config: "org.springframework.security:spring-security-config:${springSecurityVersion}",
   spring_security_core: "org.springframework.security:spring-security-core:${springSecurityVersion}",
   spring_security_ldap: "org.springframework.security:spring-security-ldap:${springSecurityVersion}",
