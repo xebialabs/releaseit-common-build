@@ -1,7 +1,7 @@
 project.ext {
-  apiVersion = '4.0.0-alpha-12'
-  engineVersion = '4.0.0-alpha-31'
-  deployitVersion = '4.0-xlrelease-14'
+  apiVersion = '3.9.90'
+  engineVersion = '3.9.91-alpha-1'
+  deployitVersion = '4.0-xlrelease-15'
   
   apacheDsVersion = '1.5.5'
   aspectjVersion = '1.6.8'
