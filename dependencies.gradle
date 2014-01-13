@@ -2,7 +2,6 @@ project.ext {
   apiVersion = '3.9.90'
   engineVersion = '3.9.91-alpha-3'
   deployitVersion = '4.0-xlrelease-19'
-  remoteBooterVersion = '3.9.4'
   
   apacheDsVersion = '1.5.5'
   aspectjVersion = '1.6.8'
@@ -47,7 +46,7 @@ project.ext.deps = [
   deployit_engine_spi: "com.xebialabs.deployit:engine-spi:$apiVersion",
   deployit_engine_xml: "com.xebialabs.deployit:engine-xml:$apiVersion",
   deployit_local_booter: "com.xebialabs.deployit.engine:local-booter:$engineVersion",
-  deployit_remote_booter: "com.xebialabs.deployit.engine:remote-booter:$remoteBooterVersion",
+  deployit_remote_booter: "com.xebialabs.deployit.engine:remote-booter:$engineVersion",
   deployit_replacer: "com.xebialabs.deployit.engine:replacer:$engineVersion",
   deployit_udm_plugin_api: "com.xebialabs.deployit:udm-plugin-api:$apiVersion",
   deployit_engine_xml: "com.xebialabs.deployit.engine:engine-xml:$engineVersion",
